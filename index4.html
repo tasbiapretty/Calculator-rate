@@ -117,13 +117,13 @@
                  </ul>
              </div>
               <p class="card-text">Total Cost</p>
-              <p class="card-text" id="total-cost1">0</p>
+              <p class="card-text" id="total-cost2">0</p>
             </div>
            
             <div class="card-body">
                
 
-                <button type="button" onclick="proceedFunc()" class="btn btn-success" id="next">Buy Now!</button>
+                <button type="button" onclick="" class="btn btn-success" id="next">Buy Now!</button>
             </div>
           </div>
     </div>
@@ -137,6 +137,25 @@
    <div class="container-fluid">
     ©Copyright GPRI, all rights reserved. Built with Bootstrap and hosted on Github Pages.
   </div>
+
+  <script>
+      const queryparams1 = window.location.href
+        .split('?')[1]
+        .split("&")
+        .map(pair => decodeURIComponent(pair.split('=')[1]))
+    console.log(queryparams)
+   // document.getElementById('plan').innerText = queryparams[1]
+   let parag=document.createElement("p");
+   let node= document.createTextNode(queryparams[0]);
+    parag.append(node);
+    document.getElementById("pp-selected").appendChild(parag);
+
+    document.getElementById("pp-selected").innerHTML=queryparams[1]
+    document.getElementById("total-cost1").innerHTML=queryparams[0]
+
+
+
+  </script>
   <script src="script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

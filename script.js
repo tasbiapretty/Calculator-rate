@@ -107,6 +107,15 @@ pricePlanDis.innerHTML=newPlan ;
 }
 
 
+function addToCost2(costele){
+  let state;
+  let finalCostDisp=document.getElementById("total-cost-2");
+  state.costele=costele;
+ finalCostDisp.innerHTML=newCost;
+
+}
+
+
 
 let proceedVar=document.getElementById("next");
  let pricePlanPass="";
@@ -116,11 +125,28 @@ function proceedFunc(){
 
   
  }
- 
- function proceedFunc(){
-  window.location.replace(`index3.html?cost=${state.newCost}&plan=${encodeURIComponent(state.newPlan)}`)
- }
+ function proceedFunc2(){
+  window.location.replace(`index4.html?cost=${state.newCost}&plan=${encodeURIComponent(state.newPlan)}`)
 
+  
+ }
+ 
+ function loadFilter() {
+  var element = document.getElementById('price-plan-list');
+  var children = element.children;
+  var filtered = [];
+  for (var i = 0; i < children.length; i++) {
+          filtered.push(children[i].textContent);
+  }
+  passVar1=filtered;
+  return console.log(filtered);
+}
+
+function nextPage(){
+  
+  loadFilter();
+
+}
 
  
 

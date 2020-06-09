@@ -19,13 +19,13 @@
         <div class="d-md-none sticky-top">
           <nav class="nav nav-pills nav-fill navbar navbar-expand-lg navbar sticky-top mb-1 navbar-light bg-light">
             <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
-            <a class="nav-item nav-link active" href="index.html">Home</a>
+            <a class="nav-item " href="index.html">Home</a>
             <a class="nav-item nav-link" href="index1.html">Enter Details</a>
             <a class="nav-link" href="index2.html">Choose your cover</a>
-            <a class="nav-link" href="index3.html">Adapt your cover</a>
+            <a class="nav-link " href="index3.html">Adapt your cover <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="index4.html">Quote</a>
             <a class="nav-link" href="index5.html">Contact Us</a>
-              
+            
             <div class="d-md-none">
                 <div class="sticky-top">
                   <div class="collapse" id="navbarToggleExternalContent">
@@ -204,7 +204,7 @@
                 <div class="card-body">
                    
 
-                    <button type="button" onclick="proceedFunc()" class="btn btn-success" id="next">Provide me a free quote!</button>
+                    <button type="button" onclick="proceedFunc2()" class="btn btn-success" id="next">Provide me a free quote!</button>
                 </div>
               </div>
         </div>
@@ -218,6 +218,7 @@
     ©Copyright GPRI, all rights reserved. Built with Bootstrap and hosted on Github Pages.
   </div>
   <script>
+      let passVar1=[];
     const queryparams = window.location.href
         .split('?')[1]
         .split("&")
@@ -278,6 +279,9 @@
           totalCostDis1.innerHTML=additionalCost;
          
          }
+         
+
+
 
 </script>
   <script src="script.js"></script>
