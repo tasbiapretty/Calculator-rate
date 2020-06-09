@@ -1,0 +1,21 @@
+body{
+    Body{
+        color: black; 
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 14px;
+        line-height: normal;
+        font-family: arial; 
+        background-size: auto auto;
+        background-repeat: repeat;
+        background-origin: padding-box;
+        background-clip: border-box;
+        background-attachment: scroll;
+        padding: 5px;
+        
+        }
+h3{
+    background-color: azure;
+}
