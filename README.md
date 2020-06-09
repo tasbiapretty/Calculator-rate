@@ -30,7 +30,7 @@
 
 <p>So i made a website that covers all of this:</p>
 <p>All the legal documents such as disclaimers, disclosure, contracts, statutory provisons, Trademark and others are still under process.</p>
-<p><h2>Reading this README.html means you are agreeing to the non disclosure agreement means you are agreeing to all the Terms and Condtions of GPRI. </h2></p> 
+<p><h2>Reading this README.html means you are agreeing to the non disclosure agreement and you are agreeing to all the Terms and Condtions of GPRI. </h2></p> 
 
 <p>This project i am just focusing on the software, building the website that will provide a quote</p>
 
