@@ -38,7 +38,7 @@
 
 <p>Enter details page is about creating a risk score by completing the questionnair which will generate a risk score which i will then add the risk score pass data to the next page the (chose your cover) using JS and Jquery. But this will not show the risk present to the client. (This is something i am still working on</p>
 
-<p>Choose your cover page, will be a seclected fixed price plan which will be added pass the data to the overall summary on the same page and the next page using JS. (Sucessfuly was able to do)(/p)
+<p>Choose your cover page, will be a seclected fixed price plan which will be added pass the data to the overall summary on the same page and the next page using JS. (Sucessfuly was able to do)</p>
 
 <p>Adjust your cover page, has same fucntion, this will add to the summary of what the client has choosen to cover thier personalised insurance as well the the total cost. Again pass the data to next page the Quote page using JS and Jquery.</p> 
 
