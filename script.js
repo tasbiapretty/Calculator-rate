@@ -112,9 +112,13 @@ let proceedVar=document.getElementById("next");
  let pricePlanPass="";
 
 function proceedFunc(){
-  window.location.replace(`project4.html?cost=${state.newCost}&plan=${encodeURIComponent(state.newPlan)}`)
+  window.location.replace(`index3.html?cost=${state.newCost}&plan=${encodeURIComponent(state.newPlan)}`)
 
-
+  
+ }
+ 
+ function proceedFunc(){
+  window.location.replace(`index3.html?cost=${state.newCost}&plan=${encodeURIComponent(state.newPlan)}`)
  }
 
 
