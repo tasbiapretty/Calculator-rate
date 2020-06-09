@@ -4,12 +4,18 @@
 
 <P><h2>How to run the project I.e. npm install && npm start</h2></p>
 
+
 <p><h2>Here some screen shot of my software</h2></p>
 
+<img src="screenshot.JPEG"/>
 
 <p><h2>How to use it</h2></p>
 
+<img src="website1.JPEG"/>
 
+<p></P>
+<p></p>
+<img src="website2.JPEG"/>
 
 
 
