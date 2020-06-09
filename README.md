@@ -19,11 +19,11 @@
 
 
 
-<p><h2>Why did you make this?</h2></p>
+<p><h2>Why did I make this?</h2></p>
 <p>During this Pandemic i relaised there has been no pandemic inssurance cover as of yet!, health insurance dealing with the pandemic in specific.</p>
 
 <p>So i made a website that covers all of this:</p>
-<p>All the legal documents such as disclaimers, disclosure, contracts, statutory provisons, Trademark and others are still in the process of happening.</p> 
+<p>All the legal documents such as disclaimers, disclosure, contracts, statutory provisons, Trademark and others are still under process.</p> 
 
 <p>This project i am just focusing on the software, building the website that will provide a quote</p>
 
@@ -48,3 +48,10 @@
 <p> CSS, the font styling and smooth process of it all using bootsrap</p>
 
 <p>Use of reusable code if later want to develop websites simillar to this commerical context and can use this</p> 
+
+<p><h2>Link to my Website:</h2></p>
+
+<p><h3>Thankyou for your time, hope you enjoyed using my website!</h3></p>
+
+<p><h3>Contact Me:</h3></p>
+<p>Linkedin: Tasbiaoretty</p>
